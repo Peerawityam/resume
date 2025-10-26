@@ -5,6 +5,11 @@ body {
   background-color: #0d1117;
   color: #e6edf3;
   line-height: 1.6;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none; 
 }
 
 .navbar {
@@ -12,11 +17,6 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-touch-callout: none; /* ป้องกันบน iOS คลิกขวา */
 }
 
 .navbar-brand {
