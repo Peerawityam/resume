@@ -1,14 +1,9 @@
-body * {
+body {
   font-family: "Poppins", "Segoe UI", Arial, sans-serif;
   scroll-behavior: smooth;
-  /* background-color: #0d1117; */
+  background-color: #0d1117;
   color: #e6edf3;
   line-height: 1.6;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-touch-callout: none;
 }
 
 .navbar {
