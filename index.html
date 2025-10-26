@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">My Resume</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section text-center fade-in">
+    <video autoplay muted loop playsinline id="bg-video">
+      <source src="background/BG.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+      <img src="background/Me1.png" alt="profile photo" class="profile-img">
+      <h1 class="mt-3 slide-up">Peerawit Yamsakol</h1>
+      <em class="lead slide-up">Digital and Information Technology</em>
+      <p class="lead slide-up">Engineering and Technology</p>
+      <p class="slide-up">
+        <a href="https://pim.ac.th" target="_blank" class="pim-link">
+          Panyapiwat Institute of Management
+        </a>
+      </p>
+    </div>
+  </header>
+
+  <section id="about" class="py-5 section-bg fade-in">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>Hello! I'm Peerawit Yamsakol, a Computer Engineering student passionate about
+        <span>IoT, Web Development, and Software Engineering</span>.
+        I enjoy learning new technologies and applying them to create real-world projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="education" class="py-5 fade-in">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <ul class="timeline">
+        <li class="slide-up">
+          <h5>Suriyawong School</h5>
+          <p>มัธยมศึกษาปีที่ 6 / 2021-2024</p>
+        </li>
+        <li class="slide-up">
+          <h5>Panyapiwat Institute of Management</h5>
+          <p>ปริญญาตรี / 2024-Present</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="py-5 fade-in">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="row text-center">
+        <div class="col-2 mb-3 slide-up">JAVA <br>⭐️⭐️⭐️⭐️⭐️</div>
+        <div class="col-2 mb-3 slide-up">C++ <br>⭐️⭐️⭐️</div>
+        <div class="col-2 mb-3 slide-up">HTML <br>⭐️⭐️⭐️⭐️</div>
+        <div class="col-2 mb-3 slide-up">CSS <br>⭐️⭐️⭐️⭐️</div>
+        <div class="col-2 mb-3 slide-up">JavaScript <br>⭐️⭐️</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-5 section-bg fade-in">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <ol>
+        <li>
+          <i class="bi bi-envelope"></i>
+          อีเมล: 6752100489
+          <i class="bi bi-at"></i>
+          stu.pim.ac.th
+        </li>
+        <li>
+          <i class="bi bi-telephone"></i>
+          เบอร์โทรศัพท์: 012-345-6789
+        </li>
+        <li>
+          <i class="bi bi-geo-alt"></i>
+          ที่อยู่: 99/9 M.1
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <footer class="text-center py-3 bg-primary text-white">
+    <p class="mb-0">&copy; 2025 My Resume By Peerawit Yamskol| All rights reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
